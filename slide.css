@@ -1,0 +1,45 @@
+img{
+  width:250px;
+  height: auto;    
+}
+
+#container{
+  position: absolute;
+  width: 800px;
+  height:600px;    
+  background: lime;
+  left:200px;    
+}
+
+#swindow{
+  width:250px;
+  height: 300px;
+  position: relative;
+  top:50px;
+  left:150px;
+  overflow: hidden;
+  border-style: solid;
+  border-style: solid;
+  border-width: 3px;    
+  border-color: black;
+    
+}
+
+.part{
+  position: absolute; 
+  height: 300px;
+  width: 750px;
+    
+}
+
+#partA{  
+  background: red;    
+}
+
+#partB{
+  background: blue;    
+}
+
+.part img{
+  float: left;
+}
