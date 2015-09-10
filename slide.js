@@ -20,7 +20,8 @@ function init(){
 	imageNumber = liItems.length;
 	imageWidth = parseInt(window.getComputedStyle(liItems[0]).getPropertyValue('width').replace("px", ""));
     uWidth=parseInt(imageNumber * imageWidth);
-    
+    uA.style.width=uWidth+"px";
+    uB.style.width=uWidth+"px";
     uA.style.left= "0px";
     uB.style.left= parseInt(-1*uWidth)+"px";
     Aleft= 0;
